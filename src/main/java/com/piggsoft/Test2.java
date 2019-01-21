@@ -6,11 +6,14 @@ package com.piggsoft;
  * @create 2019/01/21
  * @since 1.0
  */
-public class Test1 {
+public class Test2 {
+
 
     public static void main(String[] args) {
-        MyLoggerOld.debug("this is a message");
-        MyLogger.debug("this is test message");
+
+        MyLog4JLoggerOld.info("this is a log4j message");
+
+        MyLog4JLogger.info("this is a log4j message");
     }
 
 }

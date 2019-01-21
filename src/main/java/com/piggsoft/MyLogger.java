@@ -26,4 +26,5 @@ public class MyLogger {
         log.log(null, FQCN, LocationAwareLogger.DEBUG_INT, msg, null, null);
     }
 
+
 }
